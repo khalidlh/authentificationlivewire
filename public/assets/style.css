@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: auto;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.container{
+    width: 650px;
+    padding: 25px;
+    margin: 0 25px;
+    background:transparent;
+    overflow: hidden;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+.container h2{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+    color: rgb(21, 18, 18);
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+}
+.img_login{
+    text-align: center;
+}
+.img_login img{
+    border-radius: 50%;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+.box-content{
+    display: flex;
+    flex-wrap: wrap;
+    width:50%;
+    padding-bottom:15px;
+}
+.box-content:nth-child(2n){
+    justify-content: end;
+}
+.box-content label,.gender-title{
+    width: 95%;
+    color: #1d1818;
+    margin: 5px 0;
+    font-weight: bold;
+}
+.gender-title{
+    font-size: 18px;
+}
+
+.box-content input{
+    height: 40px;
+    width: 95%;
+    border-radius: 10px;
+    border: 1px solid #030202;
+    outline: none;
+    padding: 0 10px;
+}
+.box-content input .form-control{
+    width: 100%;
+}
+.gender label{
+    padding: 0 20px 0 5px;
+    font-size: 15px;
+    color: #121212;
+}
+/* .gender label,input:hover{
+    cursor: pointer;
+} */
+.alert p{
+ font-size: 18px;
+ color: #252020;
+}
+.alert a{
+    text-decoration: none;
+    color: rgb(91, 196, 107);
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.alert a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    font-style: italic;
+}
+.forgetpassword{
+    text-align: end;
+    margin: 4px;
+}
+.button-container button{
+    width: 100%;
+    padding: 15px 0;
+    background-image: linear-gradient(to right,rgb(27, 27, 233),skyblue);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.button-container button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right,skyblue,blue);
+}
+
+.seconnecter{
+    margin: 0 auto;
+    text-align: center;
+}
+.container a{
+    text-decoration: none;
+    color: rgb(9, 68, 68);
+
+}
+.container a:hover{
+    cursor: pointer;
+}
+.error{
+    color: red;
+}
